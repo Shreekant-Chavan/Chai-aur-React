@@ -1,3 +1,5 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
@@ -9,10 +11,11 @@ import Home from './pages/Home'
 import Signup from './pages/Signup'
 import AddPost from './pages/AddPost'
 import EditPost from './pages/EditPost'
+import AllPosts from './pages/AllPosts'
 import Post from './pages/Post'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // import { AllPosts, EditPost, AddPost } from './components/index.js'
 
 
